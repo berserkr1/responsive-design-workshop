@@ -80,3 +80,53 @@ footer {
     padding: 1rem;
     background-color: #f76c6c;
 }
+
+@media screen and (max-width: 576px) {
+
+    /* navigation */
+    nav {
+        /* padding: .5rem; */
+        background-color: #f76c6c;
+        color: white;
+        display: flex;
+        flex: auto;
+        text-align: left;
+    }
+
+    #en-tete,
+    nav ul {
+        min-width: 50%;
+        min-height: 100%;
+    }
+
+    #en-tete {
+        display: block;
+        margin: auto 0;
+    }
+
+    nav h1 {
+        font-size: 1rem;
+        font-weight: bold;
+        padding-left: 5px;
+    }
+
+    nav>ul {
+        margin: 0;
+        padding: 0;
+        margin-right: 1rem;
+        list-style: none;
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav>ul>li {
+        display: inline-block;
+    }
+
+    nav>ul>li>a {
+        padding: .25rem;
+        text-decoration: none;
+        color: #fff;
+    }
+}
